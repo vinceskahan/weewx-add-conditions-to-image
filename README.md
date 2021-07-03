@@ -26,3 +26,8 @@ This is a little complicated because the weewx system is so old that I can't get
 * * * * * /root/bin/overlay-image.sh
 ```
 
+### current.html.tmpl on the weewx system
+```
+current=$current.outTemp.raw F      max/min = $day.outTemp.max.raw / $day.outTemp.min.raw
+```
+
